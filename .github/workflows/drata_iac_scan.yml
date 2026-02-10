@@ -22,4 +22,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DRATA_ENVIRONMENT: "qa"
         with:
-          minimumSeverity: "High"
+          minimumSeverity: "LOW"
